@@ -1,0 +1,75 @@
+const students = [{
+    "id": 1,
+    "first_name": "Georg",
+    "last_name": "Loudian",
+    "email": "gloudian0@msu.edu",
+    "gender": "Genderqueer",
+    "ip_address": "56.17.218.222"
+  }, {
+    "id": 2,
+    "first_name": "Lark",
+    "last_name": "O'Scollee",
+    "email": "loscollee1@boston.com",
+    "gender": "Agender",
+    "ip_address": "215.137.28.243"
+  }, {
+    "id": 3,
+    "first_name": "Binni",
+    "last_name": "Blazey",
+    "email": "bblazey2@lulu.com",
+    "gender": "Bigender",
+    "ip_address": "157.66.36.95"
+  }, {
+    "id": 4,
+    "first_name": "Greer",
+    "last_name": "McQuarrie",
+    "email": "gmcquarrie3@icq.com",
+    "gender": "Non-binary",
+    "ip_address": "93.112.29.190"
+  }, {
+    "id": 5,
+    "first_name": "Lebbie",
+    "last_name": "Hizir",
+    "email": "lhizir4@ocn.ne.jp",
+    "gender": "Genderfluid",
+    "ip_address": "68.131.113.119"
+  }, {
+    "id": 6,
+    "first_name": "Ardyth",
+    "last_name": "Tuhy",
+    "email": "atuhy5@multiply.com",
+    "gender": "Male",
+    "ip_address": "120.154.133.9"
+  }, {
+    "id": 7,
+    "first_name": "Raffaello",
+    "last_name": "McKendo",
+    "email": "rmckendo6@archive.org",
+    "gender": "Agender",
+    "ip_address": "106.171.144.200"
+  }, {
+    "id": 8,
+    "first_name": "Tim",
+    "last_name": "Brandes",
+    "email": "tbrandes7@taobao.com",
+    "gender": "Bigender",
+    "ip_address": "183.192.55.33"
+  }, {
+    "id": 9,
+    "first_name": "Hoebart",
+    "last_name": "Vlahos",
+    "email": "hvlahos8@eepurl.com",
+    "gender": "Bigender",
+    "ip_address": "96.74.53.148"
+  }, {
+    "id": 10,
+    "first_name": "Benny",
+    "last_name": "Klimschak",
+    "email": "bklimschak9@shinystat.com",
+    "gender": "Non-binary",
+    "ip_address": "161.21.174.2"
+  }]
+
+
+  module.exports = students;
+  

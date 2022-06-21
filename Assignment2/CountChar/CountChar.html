@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Chars From String</title>
+    <script type="text/javascript">
+        function charCount() {
+            var res="",index,index2,count;
+            var str = prompt("Enter a String ");
+
+            for (index = 0; index < str.length; index++){
+                count = 1;
+                if (res.includes(str.charAt(index)) == false) {
+                for( index2 = index+1; index2 < str.length ; index2++){
+                    if(str.charAt(index) == str.charAt(index2)){
+                        count++;   
+                    };
+                }
+                res += str.charAt(index)+count;
+            }
+            };
+
+            document.getElementById("output").value = res;
+  
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <br/>
+        <input type="button"
+               value="Enter String" 
+               onclick="charCount()" />
+        <br/>
+        <br/> Output:
+        <input type="text" 
+               id="output"
+               readonly/>
+    </p>
+    
+</body>
+</html>
